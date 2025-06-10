@@ -1,0 +1,118 @@
+body {
+    background-image: url(../imagens/fundo.png);
+    background-color: #d2d2c1;
+    width: 1280px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo {
+    background-color: #d2d2c1;
+    display: flex;
+    justify-content: center;
+}
+
+#contatos {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e6e6df;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.conteudo {
+    margin: 5px;
+    padding: 5px;
+}
+
+h2 {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    background-color: #b3b3a1;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.menu a {
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+}
+
+ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+article {
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article p {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+}
+
+article img {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+footer {
+    background-color: #b3b3a1;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
